@@ -29,6 +29,7 @@
         <li><a href="?q=resources/61">American Assoc. of University Professors, UH Chapter, 1958-1968</a></li>
         <li><a href="?q=resources/106">Blanche Espy Chenoweth Papers</a></li>
         <li><a href="?q=resources/81">Texas City Disaster Photographs, 1947-</a></li>
+        <li><a href="?q=resources/147">Leonor Villegas de Magnón Papers, 1906-1982</a></li>
     </div>
   </div>
 </body>

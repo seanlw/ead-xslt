@@ -178,8 +178,8 @@
             <xsl:text>, </xsl:text><xsl:value-of select="ead:did/ead:unitdate" />
           </xsl:if>
           <div class="desc"><xsl:value-of select="ead:scopecontent/ead:p" /></div>
+          <xsl:apply-templates select="ead:c[@level='file' or @level='item']" />
         </li>
-        <xsl:apply-templates select="ead:c[@level='file' or @level='item']" />
       </ul>
     </xsl:for-each>
   </xsl:template>
@@ -205,7 +205,7 @@
               <xsl:if test="ead:did/ead:container[@type='ovs_box']">
                 OVS
               </xsl:if>
-              Box <xsl:value-of select="ead:did/ead:container[@type='box' or @type='ovs_box']" /></li>
+              Box <xsl:value-of select="ead:did/ead:container[@type='box' or @type='ovs_box']" />
               <ul class="folder">
                 <xsl:for-each select="../ead:c[@level='file' or @level='item']">
                   <xsl:variable name="testbox">
@@ -217,6 +217,7 @@
                   </xsl:if>
                 </xsl:for-each>
               </ul>
+            </li>
           </ul>
         </xsl:if>
     </xsl:for-each>
@@ -237,6 +238,13 @@
           <xsl:attribute name="class">digital-object-link</xsl:attribute>
           <i class="fa fa-picture-o" aria-hidden="true"></i><span class="small">View digital object</span>
         </xsl:element>
+      </xsl:if>
+      <xsl:if test="../ead:c[@level='item' or @level='file']">
+        <ul class="folder">
+          <xsl:for-each select="../ead:c[@level='file' or @level='item']">
+            <xsl:apply-templates select="ead:did" />
+          </xsl:for-each>
+        </ul>
       </xsl:if>
     </li>
   </xsl:template>
