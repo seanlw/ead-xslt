@@ -1,0 +1,78 @@
+body {
+  position: relative;
+}
+
+.navbar-header {
+  line-height: 56px;
+  font-family: 'League Gothic';
+  font-size: 40px;
+  color: #fff;
+}
+.navbar-header img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-uh {
+  border-radius: 0;
+  background-color: #c8102e;
+  height: 56px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.list-group.affix {
+  width: 284px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus  {
+  color: #c8102e;
+  background-color: #E6E6E6;
+  border-color: #E6E6E6;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#listings ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+#listings li {
+  font-weight: bold;
+}
+
+#listings li .desc {
+  font-weight: normal;
+  font-size: 90%;
+  font-color: #777;
+}
+
+.has-children {
+  cursor: pointer;
+}
+
+.has-children:before {
+  content: "\f196"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.has-children.open:before {
+  content: "\f147";
+}
+
+.digital-object-link {
+  margin-left: 15px;
+}
+
+.digital-object-link .small {
+  margin-left: 5px;
+}

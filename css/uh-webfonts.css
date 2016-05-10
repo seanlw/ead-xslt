@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Milo';
+    src: url('../fonts/milo-regular-webfont.eot');
+    src: url('../fonts/milo-regular-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/milo-regular-webfont.woff') format('woff'),
+         url('../fonts/milo-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Milo';
+    src: url('../fonts/milo-italic-webfont.eot');
+    src: url('../fonts/milo-italic-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/milo-italic-webfont.woff') format('woff'),
+         url('../fonts/milo-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Milo';
+    src: url('../fonts/milo-bold-webfont.eot');
+    src: url('../fonts/milo-bold-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/milo-bold-webfont.woff') format('woff'),
+         url('../fonts/milo-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Milo';
+    src: url('../fonts/milo-bolditalic-webfont.eot');
+    src: url('../fonts/milo-bolditalic-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/milo-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/milo-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Milo';
+    src: url('../fonts/milo-exlig-webfont.eot');
+    src: url('../fonts/milo-exlig-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/milo-exlig-webfont.woff') format('woff'),
+         url('../fonts/milo-exlig-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/crimson-roman-webfont.eot');
+    src: url('../fonts/crimson-roman-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/crimson-roman-webfont.woff') format('woff'),
+         url('../fonts/crimson-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/crimson-italic-webfont.eot');
+    src: url('../fonts/crimson-italic-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/crimson-italic-webfont.woff') format('woff'),
+         url('../fonts/crimson-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/crimson-semibold-webfont.eot');
+    src: url('../fonts/crimson-semibold-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/crimson-semibold-webfont.woff') format('woff'),
+         url('../fonts/crimson-semibold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/crimson-semibolditalic-webfont.eot');
+    src: url('../fonts/crimson-semibolditalic-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/crimson-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/crimson-semibolditalic-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/crimson-bold-webfont.eot');
+    src: url('../fonts/crimson-bold-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/crimson-bold-webfont.woff') format('woff'),
+         url('../fonts/crimson-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/crimson-bolditalic-webfont.eot');
+    src: url('../fonts/crimson-bolditalic-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/crimson-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/crimson-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
