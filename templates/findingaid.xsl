@@ -231,13 +231,19 @@
         <xsl:text>, </xsl:text><xsl:value-of select="ead:unitdate" />
       </xsl:if>
       <xsl:if test="ead:dao/@xlink:href">
-        <xsl:element name="a">
-          <xsl:attribute name="href">
-            <xsl:value-of select="ead:dao/@xlink:href" />
-          </xsl:attribute>
-          <xsl:attribute name="class">digital-object-link</xsl:attribute>
-          <i class="fa fa-picture-o" aria-hidden="true"></i><span class="small">View digital object</span>
-        </xsl:element>
+        <ul class="digital-objects">
+        <xsl:for-each select="ead:dao">
+          <li>
+          <xsl:element name="a">
+            <xsl:attribute name="href">
+              <xsl:value-of select="./@xlink:href" />
+            </xsl:attribute>
+            <xsl:attribute name="class">digital-object-link</xsl:attribute>
+            <i class="fa fa-picture-o" aria-hidden="true"></i><span class="small">View digital object</span>
+          </xsl:element>
+          </li>
+        </xsl:for-each>
+        </ul>
       </xsl:if>
       <xsl:if test="../ead:c[@level='item' or @level='file']">
         <ul class="folder">
