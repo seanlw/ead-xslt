@@ -178,6 +178,24 @@
             <xsl:text>, </xsl:text><xsl:value-of select="ead:did/ead:unitdate" />
           </xsl:if>
           <div class="desc"><xsl:value-of select="ead:scopecontent/ead:p" /></div>
+          <xsl:apply-templates select="ead:c[@level='subseries']" />
+          <xsl:apply-templates select="ead:c[@level='file' or @level='item']" />
+        </li>
+      </ul>
+    </xsl:for-each>
+  </xsl:template>
+
+  <!-- SUB-SERIES LEVEL -->
+  <xsl:template match="ead:c[@level='subseries']">
+    <xsl:for-each select=".">
+      <ul class="subseries">
+        <li>
+          <xsl:value-of select="ead:did/ead:unitid" />: <xsl:value-of select="ead:did/ead:unittitle" />
+          <xsl:if test="ead:did/ead:unitdate">
+            <xsl:text>, </xsl:text><xsl:value-of select="ead:did/ead:unitdate" />
+          </xsl:if>
+          <div class="desc"><xsl:value-of select="ead:scopecontent/ead:p" /></div>
+          <xsl:apply-templates select="ead:c[@level='subseries']" />
           <xsl:apply-templates select="ead:c[@level='file' or @level='item']" />
         </li>
       </ul>
