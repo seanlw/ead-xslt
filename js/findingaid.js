@@ -7,7 +7,7 @@ $(document).ready(function(){
     }
   });
 
-  $('.has-children').click(function(){
+  $('.has-children').click(function(event){
     if (this == event.target) {
       var child = $(this).find('>ul');
       child.toggle();
