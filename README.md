@@ -5,3 +5,7 @@ This is a proof-of-concept showing an EAD taken from ArchivesSpace API and apply
 ##Installation
 
 Copy the config.sample.ini file to config.ini `cp config.sample.ini config.ini` and fill in the information accordingly.
+
+## License
+
+[MIT License](LICENSE.txt)
